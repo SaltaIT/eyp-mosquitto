@@ -5,7 +5,7 @@ define mosquitto::user(
                         $order         = '00',
                         $salt          = 'aW5kZXBlbmRlbmNpYQo',
                       ) {
-  $password_hash = pw_hash($password, 'SHA-512', $salt),
+  $password_hash = pw_hash($password, 'SHA-512', $salt)
 
   concat::fragment{ "passwd ${username}":
     target  => $password_file,
