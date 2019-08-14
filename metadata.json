@@ -1,0 +1,27 @@
+{
+  "name": "eyp-mosquitto",
+  "version": "0.1.0",
+  "author": "eyp",
+  "summary": "MQTT server",
+  "license": "Apache-2.0",
+  "source": "https://github.com/NTTCom-MS/eyp-mosquitto",
+  "project_page": "https://github.com/NTTCom-MS/eyp-mosquitto",
+  "issues_url": "https://github.com/NTTCom-MS/eyp-mosquitto/issues",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0 < 9.9.9"},
+    {"name":"puppetlabs/concat","version_requirement":">= 1.0.0 < 9.9.9"},
+    {"name":"eyp/eyplib","version_requirement":">= 0.1.0 < 0.2.0"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [ "10" ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.8.0"
+    }
+  ]
+}
