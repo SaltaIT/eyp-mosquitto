@@ -1,12 +1,5 @@
 class mosquitto::service inherits mosquitto {
 
-  #
-  validate_bool($mosquitto::manage_docker_service)
-  validate_bool($mosquitto::manage_service)
-  validate_bool($mosquitto::service_enable)
-
-  validate_re($mosquitto::service_ensure, [ '^running$', '^stopped$' ], "Not a valid daemon status: ${mosquitto::service_ensure}")
-
   $is_docker_container_var=getvar('::eyp_docker_iscontainer')
   $is_docker_container=str2bool($is_docker_container_var)
 
