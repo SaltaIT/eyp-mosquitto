@@ -4,9 +4,9 @@
   "author": "eyp",
   "summary": "MQTT server",
   "license": "Apache-2.0",
-  "source": "https://github.com/NTTCom-MS/eyp-mosquitto",
-  "project_page": "https://github.com/NTTCom-MS/eyp-mosquitto",
-  "issues_url": "https://github.com/NTTCom-MS/eyp-mosquitto/issues",
+  "source": "https://github.com/SaltaIT/eyp-mosquitto",
+  "project_page": "https://github.com/SaltaIT/eyp-mosquitto",
+  "issues_url": "https://github.com/SaltaIT/eyp-mosquitto/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0 < 9.9.9"},
     {"name":"puppetlabs/concat","version_requirement":">= 1.0.0 < 9.9.9"},
